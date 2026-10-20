@@ -1,0 +1,9 @@
+*.xyz
+data/
+checkpoints/
+logs/
+results_quick/
+__pycache__/
+*.pt
+models/*
+!models/si_mace_fast_stagetwo.model

@@ -1,0 +1,51 @@
+{
+ "DFT reference (dataset liquid snapshots)": {
+  "n_frames": 68,
+  "rdf_first_peak_A": 2.4250000000000007,
+  "CN_r_lt_3.0A": 5.509394734038424
+ },
+ "si_mace_fast_stagetwo": {
+  "eos": {
+   "a0_A": 5.451398919471842,
+   "B0_GPa": 95.7425090712395,
+   "E0_eV_atom": -163.17381395742626
+  },
+  "nve": {
+   "drift_meV_atom_ps": -5.1480424775121566e-05,
+   "Etot_std_meV_atom": 0.008083874065283006,
+   "mean_T_K": 274.91517369333815,
+   "max_force_end_eV_A": 1.733608365058899
+  },
+  "liquid_1800K": {
+   "rdf_first_peak_A": 2.475,
+   "CN_r_lt_3.0A": 5.723007968278138,
+   "D_cm2_s": 8.783921330435879e-05,
+   "max_force_end_eV_A": 3.95135760307312
+  },
+  "wall_time_s": 346.8432059288025
+ },
+ "MACE-MP-0 (small, zero-shot)": {
+  "eos": {
+   "a0_A": 5.460205837318075,
+   "B0_GPa": 77.31600990425692,
+   "E0_eV_atom": -5.37217139553688
+  },
+  "nve": {
+   "drift_meV_atom_ps": 0.00024158969302852948,
+   "Etot_std_meV_atom": 0.0045823915126964945,
+   "mean_T_K": 279.04276216080774,
+   "max_force_end_eV_A": 1.5518059730529785
+  },
+  "liquid_1800K": {
+   "rdf_first_peak_A": 2.475,
+   "CN_r_lt_3.0A": 5.689886161145257,
+   "D_cm2_s": 7.966820051305406e-05,
+   "max_force_end_eV_A": 6.531658172607422
+  },
+  "wall_time_s": 796.5014169216156
+ },
+ "notes": {
+  "experiment": "a0 = 5.431 A, B0 ~ 98 GPa (room T). GGA DFT typically gives a0 ~0.5-1% larger and B0 ~10% smaller; compare the model first with its own DFT reference.",
+  "quick_mode": false
+ }
+}
