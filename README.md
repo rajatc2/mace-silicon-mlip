@@ -38,7 +38,7 @@ Largest remaining errors for this model are on surfaces, cracks and liquid
 | Quantity | This model | MACE-MP-0 | Reference |
 |---|---|---|---|
 | Lattice constant a₀ | 5.451 Å | 5.460 Å | 5.431 Å (expt.) |
-| Bulk modulus B₀ | **95.7 GPa** | 77.3 GPa | [PW91 DFT value from Bartók et al.] / ~98 GPa (expt.) |
+| Bulk modulus B₀ | **95.7 GPa** | 77.3 GPa | ~98 GPa (expt.) |
 | NVE energy drift, 2 ps | −5×10⁻⁵ meV/atom/ps | 2×10⁻⁴ meV/atom/ps | 0 |
 | Liquid (1800 K) first RDF peak | 2.475 Å | 2.475 Å | 2.425 Å (DFT snapshots) |
 | Liquid coordination, r < 3.0 Å | 5.72 | 5.69 | 5.51 (DFT snapshots) |
